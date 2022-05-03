@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:13-alpine
+    volumes:
+      - db-volume:/var/lib/postgresql/data/pgdata
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /var/lib/postgresql/data/pgdata
+
+  # es:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:6.8.9
+  #   restart: always
+  #   ports:
+  #     - 9200:9200
+  #     - 9300:9300
+  #   environment:
+  #     discovery.type: single-node
+  #     xpack.security.enabled: "false"
+  #     xpack.monitoring.enabled: "false"
+  #     bootstrap.memory_lock: "true"
+  #     ES_JAVA_OPTS: -Xms512m -Xmx512m
+  #   ulimits:
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #     nofile: 65536
+  #   volumes:
+  #     - es-volume:/usr/share/elasticsearch/data
+
+  # redis:
+  #   image: redis:5
+  #   restart: always
+  #   privileged: true
+  #   ports:
+  #     - 6379:6379
+  #   volumes:
+  #     - redis-volume:/data
+
+volumes:
+  db-volume:
+  # es-volume:
+  # redis-volume:
