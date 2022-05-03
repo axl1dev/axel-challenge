@@ -1,0 +1,142 @@
+.theme-dark {
+    background-color: #22272e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.theme-dark .card-title {
+    color: #539bf5;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.theme-dark p {
+    color: #768390;
+}
+
+.theme-dark svg {
+    fill: #768390;
+}
+
+.theme-dark .dropdown svg {
+    fill: #cdd9e5;
+}
+
+.bg-dark .navbar-brand svg {
+    fill: #cdd9e5;
+}
+
+.badge.rounded-pill.bg-secondary {
+    background-color: transparent !important;
+    border: 1px solid #768390;
+    color: #768390;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.search-repo {
+    width: 60%;
+    padding: 5px 12px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #768390;
+    border-radius: 6px;
+    color: #adbac7;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.search-all-github {
+    width: 85%;
+    padding: 5px 12px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #768390;
+    border-radius: 6px;
+    color: #adbac7;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.row-search.row {
+    border-bottom: 1px solid #373e47;
+}
+
+.languaje {
+    margin-bottom: 0px;
+}
+
+.item-repo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #373e47;
+}
+
+.badge.rounded-pill.bg-primary {
+    background-color: rgb(65 132 228 / 17%) !important;
+    color: #4b86d4;
+    font-weight: 400;
+    margin-right: 3px;
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.notifications svg {
+    color: #768390;
+    font-size: 22px;
+}
+
+.header-nav.row {
+    width: 100%;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+}
+
+.big-avatar {
+    border-radius: 50%;
+}
+
+.big-name {
+    font-size: 24px;
+    color: #adbac7;
+    line-height: 1.25;
+    font-weight: bold;
+    padding-top: 16px;
+    margin-bottom: 0px;
+}
+
+.big-login {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #727e8b;
+    padding-bottom: 16px;
+}
+
+button.btn.btn-warning {
+    width: 100%;
+    color: #adbac7;
+    background-color: #373e47;
+    border-color: #525252;
+}
+
+.txt-bio {
+    font-size: 23px;
+}
+
+.txt-list {
+    list-style-type: none;
+    padding-left: 0px;
+    color: #768390;
+    font-size: 20px;
+}
