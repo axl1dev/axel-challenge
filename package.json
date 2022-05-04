@@ -59,20 +59,14 @@
     "@babel/preset-typescript": "^7.16.7",
     "@cypress/instrument-cra": "^1.4.0",
     "@testing-library/dom": ">=7.21.4",
+    "@testing-library/preact": "^2.0.1",
     "@testing-library/react-hooks": "^7.0.0",
+    "jest-environment-jsdom": "^28.0.2",
     "lint-staged": "^10.5.4",
     "nock": "^13.1.0",
     "prettier-config-standard": "^4.0.0",
     "react-test-renderer": "^17.0.2",
     "standard": "^16.0.3",
     "ts-standard": "^10.0.0"
-  },
-  "jest": {
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "reportWebVitals.ts",
-      "index.tsx"
-    ],
-    "coverageThreshold": {}
   }
 }
